@@ -1,0 +1,317 @@
+/* line 1, dev/sass/style.css */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 9, dev/sass/style.css */
+.body-container {
+  overflow-x: hidden;
+}
+
+/* line 12, dev/sass/style.css */
+.progressbar__round {
+  min-height: 255px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 18, dev/sass/style.css */
+.progressbar__circleContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-size: 40px;
+  color: #212121;
+  font-weight: 100;
+}
+
+/* line 28, dev/sass/style.css */
+.progressbar__title {
+  display: block;
+  color: #999;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+/* line 34, dev/sass/style.css */
+.progressbar__container {
+  margin-top: 50px;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px .5px #999;
+}
+
+/* line 43, dev/sass/style.css */
+.progressbar__circle {
+  text-align: center;
+}
+
+/* line 46, dev/sass/style.css */
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+/* line 53, dev/sass/style.css */
+.scroll-top__img {
+  width: 40px;
+  opacity: .5;
+}
+
+/* line 56, dev/sass/style.css */
+.scroll-top__img:hover {
+  opacity: 1;
+}
+
+/* line 59, dev/sass/style.css */
+.eje {
+  border: 3px solid red;
+}
+
+/* line 62, dev/sass/style.css */
+.main-wrapper {
+  width: 100%;
+  position: relative;
+  background-image: url("../../public/img/elipse2.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 660px 88%;
+  padding-bottom: 4rem;
+}
+
+/* line 71, dev/sass/style.css */
+.marginBottom {
+  margin-bottom: 2rem;
+}
+
+/* line 74, dev/sass/style.css */
+.marginBottomContainer {
+  margin-bottom: 4rem;
+}
+
+/* line 77, dev/sass/style.css */
+.d-flex-justifyCenter {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+/* line 81, dev/sass/style.css */
+.photoContainer__img {
+  width: 70%;
+  height: 400px;
+  background-color: gray;
+  border: 20px solid white;
+  border-radius: 50%;
+}
+
+/* line 88, dev/sass/style.css */
+.aboutMe {
+  position: relative;
+  margin-top: 3rem;
+}
+
+/* line 91, dev/sass/style.css */
+.aboutMe__backgroundPoint {
+  background-image: url("../../public/img/background-point.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/* line 95, dev/sass/style.css */
+.aboutMe__circle {
+  width: 220px;
+  position: absolute;
+  top: -71px;
+  left: -51px;
+  z-index: 99;
+}
+
+/* line 101, dev/sass/style.css */
+.aboutMe__img {
+  margin-top: 2rem;
+  box-shadow: 0 0 5px 1px gray;
+}
+
+/* line 104, dev/sass/style.css */
+.aboutMe__information {
+  padding: 3rem;
+}
+
+/* line 107, dev/sass/style.css */
+.projectContainer {
+  text-align: center;
+}
+
+/* line 109, dev/sass/style.css */
+.projectContainer__backgroundPointerImage {
+  background-image: url("../../public/img/background-point.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-bottom: 3rem;
+}
+
+/* line 115, dev/sass/style.css */
+.testimonialContainer__title {
+  margin-bottom: 0;
+}
+
+/* line 118, dev/sass/style.css */
+.contactMe__imgContainer {
+  box-shadow: 0 0 5px 1px gray;
+}
+
+/* line 121, dev/sass/style.css */
+.contactMe__img {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 5px 1px gray;
+}
+
+/* line 127, dev/sass/style.css */
+.contactMe__txtArea {
+  resize: none;
+}
+
+/* line 130, dev/sass/style.css */
+.contactMe__title {
+  text-transform: uppercase;
+}
+
+/* line 133, dev/sass/style.css */
+.contactMe__subTitle, .contactMe__label {
+  text-transform: capitalize;
+}
+
+/* line 136, dev/sass/style.css */
+.footerContainer__containerPrincipal {
+  padding-top: 3rem;
+  box-shadow: 0 0 10px 2px #80808088;
+}
+
+@media (max-width: 1199.98px) {
+  /* line 141, dev/sass/style.css */
+  .main-wrapper {
+    background-size: 100%;
+    background-position: 547px 83%;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 146, dev/sass/style.css */
+  .main-wrapper {
+    background-size: 100%;
+    background-position: 488px 98%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* line 151, dev/sass/style.css */
+  .main-wrapper {
+    background-position: 437px 158%;
+    background-attachment: relative;
+  }
+  /* line 154, dev/sass/style.css */
+  .photoContainer__img {
+    width: 85%;
+    height: 335px;
+  }
+  /* line 157, dev/sass/style.css */
+  .aboutMe__subTitle {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 823px) {
+  /* line 161, dev/sass/style.css */
+  .main-wrapper {
+    background-position: 335px -74px;
+    background-attachment: relative;
+  }
+  /* line 164, dev/sass/style.css */
+  .aboutMe__circle {
+    width: 140px;
+    left: -39px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 169, dev/sass/style.css */
+  .main-wrapper {
+    background: none;
+  }
+  /* line 171, dev/sass/style.css */
+  .headerContainer__imgLogo {
+    width: 230px;
+  }
+  /* line 173, dev/sass/style.css */
+  .photoContainer__img {
+    border: 20px solid #0fbf61;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 #fff;
+  }
+  /* line 177, dev/sass/style.css */
+  .aboutMe__circle {
+    display: none;
+  }
+}
+
+@media (max-width: 736px) {
+  /* line 181, dev/sass/style.css */
+  .btnHire,
+  .btnExplore {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 186, dev/sass/style.css */
+  .headerContainer__imgLogo {
+    width: 150px;
+  }
+  /* line 188, dev/sass/style.css */
+  .photoContainer {
+    background-color: #0fbf61;
+    padding: 1rem 0;
+  }
+  /* line 191, dev/sass/style.css */
+  .photoContainer__img {
+    background-color: gray;
+    border: 20px solid white;
+    box-shadow: 0 0 5px 0 #fff;
+  }
+  /* line 195, dev/sass/style.css */
+  .aboutMe__circle {
+    display: none;
+  }
+  /* line 197, dev/sass/style.css */
+  .progressbar__containerCircleProgress, .progressbar__btnView {
+    display: none;
+  }
+  /* line 199, dev/sass/style.css */
+  .progressbar__titlePorcentaje {
+    margin-bottom: 0;
+  }
+  /* line 201, dev/sass/style.css */
+  .progressbar__sizeTitlePorcentaje {
+    height: 30px;
+  }
+}
